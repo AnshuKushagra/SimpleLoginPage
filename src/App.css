@@ -1,0 +1,118 @@
+/* Full-screen background */
+body {
+  font-family: Arial, sans-serif;
+  background: url("/background.jpg") no-repeat center center/cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+/* Glassmorphic form container */
+form {
+  background: rgba(255, 255, 255, 0.1); /* Transparent white */
+  padding: 30px;
+  border-radius: 12px;
+  width: 350px;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  backdrop-filter: blur(10px); /* Glass effect */
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+/* Form title */
+h2 {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+}
+
+/* Labels */
+label {
+  color: white;
+  font-weight: bold;
+  display: flex;
+  text-align: left;
+  margin-bottom: 5px;
+  white-space: nowrap;
+  gap: 8px;
+}
+
+/* Input fields */
+input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+  outline: none;
+  transition: 0.3s;
+}
+
+/* Placeholder color */
+input::placeholder {
+  color: rgba(255, 255, 255, 0.7);
+}
+
+/* Input focus effect */
+input:focus {
+  background: rgba(255, 255, 255, 0.3);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+/* Submit button */
+input[type="submit"] {
+  background: white;
+  color: black;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 12px;
+  transition: 0.3s;
+  border: none;
+}
+
+/* Button hover effect */
+input[type="submit"]:hover {
+  background: rgba(255, 255, 255, 0.8);
+}
+
+/* Forgot Password and Remember Me */
+.options {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  color: white;
+  margin-bottom: 15px;
+}
+
+.options a {
+  color: #ddd;
+  text-decoration: none;
+}
+
+.options a:hover {
+  text-decoration: underline;
+}
+
+/* Register link */
+.register {
+  color: black;
+  font-size: 14px;
+  /* margin-left: 12px; */
+}
+
+.register a {
+  color: hsl(0, 0%, 100%);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.register a:hover {
+  text-decoration: underline;
+}

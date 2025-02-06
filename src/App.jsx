@@ -37,7 +37,7 @@ function App() {
         <label>
           <input type="checkbox" {...register("rememberMe")} /> Remember Me
         </label>
-        <a href="#">Forgot Password?</a>
+        <a href="#">Forgot Password ?</a>
       </div>
       <input
         type="submit"

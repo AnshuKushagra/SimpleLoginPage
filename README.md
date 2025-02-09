@@ -1,14 +1,15 @@
 # React + Vite
-🚀 Tech Stack
-This project is built using the following technologies:
+### 🚀 Tech Stack  
+This project is built using the following technologies:  
 
-✨ Reactjs – A powerful JavaScript library for building interactive UIs.
-✨ Vite – A fast and lightweight development build tool for modern web projects.
-✨ HTML5 & CSS3 – For structuring and styling the login page.
-✨ JavaScript (ES6+) – To add dynamic functionality and interactivity.
-✨ React Hooks – Used for state management and handling form interactions.
-✨ ESLint & Prettier – For code quality and maintaining a clean codebase.
-😊😊
+- ✨ **React.js** – A powerful JavaScript library for building interactive UIs.  
+- ✨ **Vite** – A fast and lightweight development build tool for modern web projects.  
+- ✨ **HTML5 & CSS3** – For structuring and styling the login page.  
+- ✨ **JavaScript (ES6+)** – To add dynamic functionality and interactivity.  
+- ✨ **React Hooks** – Used for state management and handling form interactions.  
+- ✨ **ESLint & Prettier** – For code quality and maintaining a clean codebase.  
+
+😊😊  
 - "Here’s a preview of the login page. Check it out below! 👇"
 
 - ![Screenshot](https://github.com/AnshuKushagra/SimpleLoginPage/blob/main/Screenshot%20(427).png?raw=true)
